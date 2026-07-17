@@ -1,0 +1,32 @@
+Global Disaster Response Analysis
+DAX Measures
+
+1. Total Disasters
+COUNT('DisasterData'[Event_ID])
+
+2. Total Casualties
+SUM('DisasterData'[Casualties])
+
+3. Total Economic Loss
+SUM('DisasterData'[Economic_Loss_USD])
+
+4. Total Aid Distributed
+SUM('DisasterData'[Aid_Amount_USD])
+
+5. Average Response Time
+AVERAGE('DisasterData'[Response_Time_Hours])
+
+6. Average Recovery Days
+AVERAGE('DisasterData'[Recovery_Days])
+
+7. Average Response Efficiency
+AVERAGE('DisasterData'[Response_Efficiency_Score])
+
+8. Total Countries Affected
+DISTINCTCOUNT('DisasterData'[Country])
+
+9. Total Disaster Types
+DISTINCTCOUNT('DisasterData'[Disaster_Type])
+
+10. Average Severity Score
+AVERAGE('DisasterData'[Severity_Score])
