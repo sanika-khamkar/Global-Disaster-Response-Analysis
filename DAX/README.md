@@ -1,12 +1,16 @@
-# DAX Measures
+# 📊 DAX Measures
 
-This folder contains all DAX measures used in the Power BI dashboard.
+This folder contains the DAX (Data Analysis Expressions) measures used to build the Power BI dashboard.
 
-Examples include:
+## Key Measures
 
-- Total Disasters
-- Total Casualties
-- Average Response Time
-- Total Economic Loss
-- Total Aid Distributed
-- Average Efficiency Score
+- 📌 Total Disasters
+- 💀 Total Casualties
+- 💰 Total Economic Loss
+- ⏱ Average Response Time
+- 🤝 Total Aid Distributed
+- 📈 Recovery Rate
+- 📍 Disaster Count by Region
+- 📅 Year-over-Year Disaster Trend
+
+These measures were created to support KPI cards, charts, maps, and interactive dashboard visuals.
